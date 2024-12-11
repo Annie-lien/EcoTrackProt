@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,8 +14,10 @@
         android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
 
         <TextView
@@ -26,11 +29,19 @@
             android:textAlignment="center"
             android:textSize="28sp" />
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ecotrack_logo"/>
+
         <TextView
             android:id="@+id/loginQ"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
             android:text="Log in as?"
             android:textAlignment="center" />
 
@@ -46,14 +57,18 @@
                 android:id="@+id/button"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginEnd="60dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/button"
+                android:onClick="residentLogin"
                 android:text="Resident" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
                 android:onClick="adminLogin"
                 android:text="Admin" />
         </LinearLayout>
@@ -63,12 +78,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
+            android:background="@drawable/rounded_corner"
             android:text="Sign in with Google" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/button"
             android:text="Register" />
 
     </LinearLayout>

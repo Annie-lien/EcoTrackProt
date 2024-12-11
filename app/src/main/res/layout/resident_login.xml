@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context=".adminLogin"
-    android:background="@drawable/background">
+    tools:context=".residentLogin">
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="30dp"
-        android:text="Welcome Admin!"
+        android:text="Welcome Resident!"
         android:textAlignment="center"
         android:textSize="32dp" />
 
@@ -46,10 +46,10 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/button20"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="adminDashboard"
-        android:text="Login" />
+        android:text="Login"
+        android:onClick="LoginResident"/>
 
 </LinearLayout>

@@ -2,9 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
 
     <TextView
@@ -48,13 +47,17 @@
                     android:id="@+id/button16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Accept" />
+                    android:text="Accept"
+                    android:background="@drawable/rounded_corner"/>
 
                 <Button
                     android:id="@+id/button17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Decline" />
+                    android:layout_marginTop="10dp"
+                    android:text="Decline"
+                    android:background="@drawable/rounded_corner"
+                    android:backgroundTint="@color/white"/>
             </LinearLayout>
 
             <LinearLayout
@@ -81,7 +84,8 @@
                     android:id="@+id/button161"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Accept" />
+                    android:text="Accept"
+                    />
 
                 <Button
                     android:id="@+id/button171"

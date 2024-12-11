@@ -24,6 +24,10 @@ class MainActivity : ComponentActivity() {
         val intent = Intent(this, adminLogin::class.java)
         startActivity(intent)
     }
+    fun residentLogin(view: View){
+        val intent = Intent(this, residentLogin::class.java)
+        startActivity(intent)
+    }
 }
 
 
