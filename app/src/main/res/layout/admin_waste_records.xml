@@ -48,6 +48,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Accept"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/rounded_corner"/>
 
                 <Button
@@ -84,14 +85,19 @@
                     android:id="@+id/button161"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="Accept"
+                    android:background="@drawable/rounded_corner"
                     />
 
                 <Button
                     android:id="@+id/button171"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Decline" />
+                    android:text="Decline"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:backgroundTint="@color/white"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

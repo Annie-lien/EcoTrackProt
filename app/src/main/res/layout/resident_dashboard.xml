@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:onClick="goal"
     android:padding="15dp"
-    tools:context=".residentDashboard">
+    tools:context=".residentDashboard"
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/imageView"
@@ -36,7 +37,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
             android:onClick="logWaste"
-            android:text="Log Waste" />
+            android:text="Log Waste"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,7 +54,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="goal"
-                android:text="Goal" />
+                android:text="Goal"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/white"/>
 
             <Button
                 android:id="@+id/button10"
@@ -59,7 +64,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="tipsAndResources"
-                android:text="Tips and Resources" />
+                android:text="Tips and Resources"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/white"/>
         </LinearLayout>
 
         <Button
@@ -68,14 +75,18 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:onClick="communityChallenges"
-            android:text="Community Challenges" />
+            android:text="Community Challenges"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white"/>
 
         <Button
             android:id="@+id/button12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="viewWasteHistory"
-            android:text="View Waste History" />
+            android:text="View Waste History"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white"/>
 
     </LinearLayout>
 

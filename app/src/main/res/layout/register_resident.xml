@@ -49,7 +49,7 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register!"
+            android:text="Register"
             android:layout_marginTop="40dp"
             android:background="@drawable/rounded_corner"
             android:backgroundTint="@color/white"/>
